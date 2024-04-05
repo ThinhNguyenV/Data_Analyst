@@ -1,1 +1,1 @@
-# Data_Analyst
+pip install -r requirements.txt
