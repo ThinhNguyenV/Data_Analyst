@@ -20,7 +20,8 @@
     <ol>
         <li><strong>Clone the repository:</strong></li>
     </ol>
-    <pre><code>git clone https://github.com/ThinhNguyenV/Data_Analyst.git
+    <pre><code>
+    git clone https://github.com/ThinhNguyenV/Data_Analyst.git
     cd Data_Analyst
     </code></pre>
     <ol start="2">
