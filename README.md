@@ -3,35 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Analyst Repository</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        p {
-            margin-bottom: 10px;
-        }
-        ul {
-            margin-bottom: 10px;
-        }
-        pre {
-            background-color: #f4f4f4;
-            padding: 10px;
-            overflow-x: auto;
-        }
-        code {
-            font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-            font-size: 14px;
-            background-color: #f4f4f4;
-            padding: 2px 5px;
-            border-radius: 4px;
-        }
-    </style>
 </head>
 <body>
     <h1>Data Analyst Repository</h1>
@@ -44,7 +15,6 @@
         <li><a href="#scripts">Scripts</a></li>
         <li><a href="#usage">Usage</a></li>
         <li><a href="#contributing">Contributing</a></li>
-        <li><a href="#license">License</a></li>
     </ul>
     <h2 id="introduction">Introduction</h2>
     <p>This repository is dedicated to data analysis projects, showcasing different datasets and Python scripts used for analysis and visualization. Whether you're exploring data science or practicing analytical skills, you'll find useful resources here.</p>
@@ -73,7 +43,5 @@
     </ol>
     <h2 id="contributing">Contributing</h2>
     <p>Contributions to this repository are welcome! If you have suggestions for improving the datasets, scripts, or documentation, feel free to fork the repository and submit a pull request. Please adhere to the repository's coding standards and include clear commit messages.</p>
-    <h2 id="license">License</h2>
-    <p>This repository is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for more information.</p>
 </body>
 </html>
