@@ -5,43 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <h1>Data Analyst Repository</h1>
-    <p>Welcome to the Data Analyst repository! This repository contains datasets and analysis scripts for various data analysis projects.</p>
-    <h2>Table of Contents</h2>
     <ul>
-        <li><a href="#introduction">Introduction</a></li>
-        <li><a href="#folder-structure">Folder Structure</a></li>
-        <li><a href="#datasets">Datasets</a></li>
-        <li><a href="#scripts">Scripts</a></li>
-        <li><a href="#usage">Usage</a></li>
-        <li><a href="#contributing">Contributing</a></li>
+        <li><strong>Pandas</strong>: For data manipulation and analysis.</li>
+        <li><strong>Matplotlib</strong>: For creating static, animated, and interactive visualizations in Python.</li>
+        <li><strong>Seaborn</strong>: For statistical data visualization based on Matplotlib.</li>
+        <li><strong>NumPy</strong>: For numerical computing with Python.</li>
+        <li><strong>Jupyter Notebook</strong>: For interactive computing and data visualization.</li>
     </ul>
-    <h2 id="introduction">Introduction</h2>
-    <p>This repository is dedicated to data analysis projects, showcasing different datasets and Python scripts used for analysis and visualization. Whether you're exploring data science or practicing analytical skills, you'll find useful resources here.</p>
-    <h2 id="folder-structure">Folder Structure</h2>
-    <p>The repository is structured as follows:</p>
-    <ul>
-        <li><strong>Data/</strong>: Contains datasets used in the analysis.</li>
-        <li><strong>Notebooks/</strong>: Jupyter Notebooks (.ipynb) with detailed analysis and visualizations.</li>
-        <li><strong>Scripts/</strong>: Python scripts (.py) for data preprocessing, analysis, and modeling.</li>
-        <li><strong>Documentation/</strong>: Additional documentation and README files.</li>
-    </ul>
-    <h2 id="datasets">Datasets</h2>
-    <p>The <code>Data/</code> directory includes various datasets used for analysis. Each dataset is provided in a structured format (e.g., CSV, Excel) and is accompanied by a brief description of its contents and source.</p>
-    <h2 id="scripts">Scripts</h2>
-    <p>The <code>Notebooks/</code> and <code>Scripts/</code> directories contain Python scripts and Jupyter Notebooks demonstrating data analysis techniques. These scripts cover tasks such as data cleaning, exploratory data analysis (EDA), statistical analysis, and visualization.</p>
-    <h2 id="usage">Usage</h2>
-    <p>To use this repository:</p>
+    <p>Install these libraries using pip:</p>
+    <pre><code>pip install pandas matplotlib seaborn numpy jupyter
+    </code></pre>
+    <h2>Running the Project</h2>
+    <p>Follow these steps to run the project:</p>
     <ol>
-        <li>Clone the repository to your local machine:</li>
+        <li><strong>Clone the repository:</strong></li>
     </ol>
-    <pre><code>git clone https://github.com/ThinhNguyenV/Data_Analyst.git</code></pre>
+    <pre><code>git clone https://github.com/ThinhNguyenV/Data_Analyst.git
+    cd Data_Analyst
+    </code></pre>
     <ol start="2">
-        <li>Navigate to the relevant directory (<code>Data/</code>, <code>Notebooks/</code>, or <code>Scripts/</code>) to access datasets or scripts of interest.</li>
-        <li>Open Jupyter Notebooks (.ipynb) in the <code>Notebooks/</code> directory using Jupyter Notebook or JupyterLab for detailed analysis and visualization.</li>
-        <li>Execute Python scripts (.py) in the <code>Scripts/</code> directory using your preferred Python environment to perform data preprocessing, analysis, or modeling tasks.</li>
+        <li><strong>Install required libraries:</strong></li>
     </ol>
-    <h2 id="contributing">Contributing</h2>
-    <p>Contributions to this repository are welcome! If you have suggestions for improving the datasets, scripts, or documentation, feel free to fork the repository and submit a pull request. Please adhere to the repository's coding standards and include clear commit messages.</p>
+    <pre><code>pip install -r requirements.txt
+    </code></pre>
+    <p>Replace <code>requirements.txt</code> with the actual file name if applicable.</p>
+    <ol start="3">
+        <li><strong>Navigate to the Notebooks directory:</strong></li>
+    </ol>
+    <pre><code>cd Notebooks
+    </code></pre>
+    <ol start="4">
+        <li><strong>Start Jupyter Notebook:</strong></li>
+    </ol>
+    <pre><code>jupyter notebook
+    </code></pre>
+    <p>This command will open a new browser window or tab with the Jupyter Notebook interface. You can then click on the notebook file (<code>*.ipynb</code>) you're interested in and execute the cells to see the analysis and visualizations.</p>
+    <ol start="5">
+        <li><strong>Explore the Scripts directory:</strong></li>
+    </ol>
+    <p>If you prefer running scripts directly, navigate to the <code>Scripts</code> directory and execute the Python scripts using:</p>
+    <pre><code>python script_name.py
+    </code></pre>
+    <p>Replace <code>script_name.py</code> with the name of the Python script you want to run.</p>
+    <h2>Contributing</h2>
+    <p>Contributions to improve this project are welcome! If you have suggestions, enhancements, or bug fixes, feel free to fork the repository, make your changes, and submit a pull request.</p>
 </body>
 </html>
