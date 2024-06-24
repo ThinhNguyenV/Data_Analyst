@@ -13,7 +13,7 @@
         <li><strong>Jupyter Notebook</strong>: For interactive computing and data visualization.</li>
     </ul>
     <p>Install these libraries using pip:</p>
-    <pre><code>pip install pandas matplotlib seaborn numpy jupyter
+    <pre><code>pip install pandas matplotlib seaborn numpy
     </code></pre>
     <h2>Running the Project</h2>
     <p>Follow these steps to run the project:</p>
