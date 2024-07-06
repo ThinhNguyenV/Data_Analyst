@@ -10,7 +10,6 @@
         <li><strong>Matplotlib</strong>: For creating static, animated, and interactive visualizations in Python.</li>
         <li><strong>Seaborn</strong>: For statistical data visualization based on Matplotlib.</li>
         <li><strong>NumPy</strong>: For numerical computing with Python.</li>
-        <li><strong>Jupyter Notebook</strong>: For interactive computing and data visualization.</li>
     </ul>
     <p>Install these libraries using pip:</p>
     <pre><code>pip install pandas matplotlib seaborn numpy
