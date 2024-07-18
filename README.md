@@ -10,10 +10,11 @@
         <li><strong>Matplotlib</strong>: For creating static, animated, and interactive visualizations in Python.</li>
         <li><strong>Seaborn</strong>: For statistical data visualization based on Matplotlib.</li>
         <li><strong>NumPy</strong>: For numerical computing with Python.</li>
+        <li><strong>TensorFlow</strong>: For building and training machine learning models.</li>
+        <li><strong>Scikit-learn</strong>: For machine learning and statistical modeling, including classification, regression, and clustering.</li>
     </ul>
     <p>Install these libraries using pip:</p>
-    <pre><code>pip install pandas matplotlib seaborn numpy
-    </code></pre>
+    <pre><code>pip install pandas matplotlib seaborn numpy tensorflow scikit-learn</code></pre>
     <h2>Running the Project</h2>
     <p>Follow these steps to run the project:</p>
     <ol>
