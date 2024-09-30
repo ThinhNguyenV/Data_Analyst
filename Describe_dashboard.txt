@@ -1,0 +1,37 @@
+1. Home Page: Tổng Quan và Các Chỉ Số Chính (KPIs)
+Mục tiêu: Cung cấp một cái nhìn nhanh về các chỉ số kinh doanh quan trọng, giúp người dùng nắm bắt ngay tình hình hoạt động chung.
+Visualizations:
+Card Visuals (4 card hiển thị số liệu):
+Tổng doanh thu: Hiển thị tổng doanh thu từ tất cả các giao dịch (dựa trên sales_amount).
+Tổng lợi nhuận: Hiển thị tổng lợi nhuận (dựa trên total_profit).
+Tổng số giao dịch: Hiển thị tổng số lượng giao dịch (dựa trên customer_code hoặc order_date).
+Giá trị đơn hàng trung bình (AOV): Tính bằng công thức Total Revenue / Total Transactions, chỉ ra giá trị trung bình của mỗi đơn hàng.
+Line Chart (Biểu đồ đường):
+- Hiển thị xu hướng doanh thu theo thời gian. Sử dụng order_date hoặc month_name trên trục X, và sales_amount trên trục Y. Điều này giúp nắm bắt doanh thu đang tăng hay giảm trong các kỳ thời gian.
+Bar Chart (Biểu đồ cột):
+- Top 5 loại sản phẩm hoặc thị trường theo doanh thu: Xếp hạng 5 loại sản phẩm (product_type) hoặc thị trường (market_name) có doanh thu cao nhất, giúp nhận diện được các mảng kinh doanh quan trọng.
+Pie Chart (Biểu đồ tròn):
+- Phân bố doanh thu theo loại khách hàng: Hiển thị tỷ lệ doanh thu từ các loại khách hàng khác nhau (customer_type), giúp hiểu rõ sự đóng góp của từng nhóm khách hàng.
+
+2. Action Page: Phân Tích Hiệu Suất và Insights
+Mục tiêu: Cung cấp các phân tích chi tiết và insights sâu hơn về hiệu suất kinh doanh theo khu vực, sản phẩm, và khách hàng, từ đó giúp đưa ra các hành động cụ thể.
+Visualizations:
+Stacked Bar Chart (Biểu đồ cột xếp chồng):
+- Doanh thu theo khu vực và thị trường: Trục Y là các khu vực (zone), và mỗi cột sẽ được chia nhỏ theo các thị trường (market_name) trong từng khu vực. Trục X là doanh thu (sales_amount). Biểu đồ này giúp thấy rõ thị trường nào đang hoạt động tốt nhất trong mỗi khu vực.
+Matrix:
+- Doanh thu theo loại sản phẩm và loại khách hàng: product_type, customer_type. 
+- Màu sắc trong bảng sẽ thể hiện doanh thu (dựa trên sales_amount), từ đó nhận diện được loại sản phẩm nào phổ biến nhất với từng loại khách hàng.
+Line Chart (Biểu đồ đường):
+- Xu hướng số lượng bán hàng và doanh thu: Biểu đồ này sẽ hiển thị cả số lượng bán (sales_qty) và doanh thu (sales_amount) theo thời gian, giúp phân tích xem số lượng bán và doanh thu có đồng hành với nhau hay không, và tìm ra những biến động quan trọng.
+Treemap (Biểu đồ cây):
+- Đóng góp lợi nhuận theo loại sản phẩm: Biểu đồ này sẽ thể hiện lợi nhuận (profit hoặc total_profit) của từng loại sản phẩm hoặc mã sản phẩm (product_code). Kích thước của từng "ô" sẽ đại diện cho mức độ đóng góp của từng sản phẩm vào tổng lợi nhuận, giúp nhận diện sản phẩm nào đóng góp nhiều nhất.
+
+3. Detail Page: Phân Tích Chi Tiết Giao Dịch
+Mục tiêu: Cung cấp chi tiết từng giao dịch cụ thể, kèm theo các bộ lọc, giúp người dùng có thể tìm kiếm và xem chi tiết theo các tiêu chí họ cần.
+Visualizations:
+Table Visual (Bảng chi tiết):
+Hiển thị toàn bộ thông tin chi tiết về các giao dịch, bao gồm các cột như product_code, customer_code, order_date, sales_qty, sales_amount, profit, zone, market_name, v.v. Bảng này giúp người dùng có thể tra cứu từng giao dịch cụ thể.
+Slicers (Bộ lọc):
+Bộ lọc ngày (order_date): Cho phép người dùng lọc các giao dịch theo khoảng thời gian cụ thể.
+Bộ lọc sản phẩm (product_code hoặc product_type): Lọc các giao dịch theo sản phẩm.
+Bộ lọc thị trường (market_name): Lọc các giao dịch theo thị trường hoặc khu vực.
